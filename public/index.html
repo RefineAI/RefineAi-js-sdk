@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<title>Refine AI SDK</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="main.css" type="text/css" media="all">
+	<script src="refineai-sdk.js"></script>
+</head>
+<body>
+<div class="contentarea">
+	<h1>
+		Refine AI - JavaScript SDK: Still photo emotion capture demo
+	</h1>
+	<p>
+		This example demonstrates how to set up a media stream using your built-in webcam, fetch an image from that stream, and receive emotional analysis .
+	</p>
+  <div class="capture-container">
+    <div class="camera">
+      <video id="video">Video stream not available.</video>
+      <button id="startbutton">Take photo</button>
+    </div>
+    <div class="output">
+      <img id="photo" alt="The screen capture will appear in this box.">
+    </div>
+  </div>
+  <canvas id="canvas">
+  </canvas>
+  <div class="emotion-output"><code id="capture-response"></code></div>
+	<p>
+		Visit our <a href="#"> github repo</a> to learn more about the technologies used here.
+	</p>
+</div>
+</body>
+</html>
